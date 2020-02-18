@@ -1,0 +1,75 @@
+body {
+    font-family: 'Montserrat';
+    margin: 8px;
+    }
+
+.navigationbar {
+    background-color: white;
+    overflow: hidden;
+    margin-top: 100px
+    margin-right: 8px;
+}
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+  margin-right: 8px;
+}
+
+.searchlink{
+    color: black;
+    font-size: 16px;
+}
+
+.aboutlink {
+color: black;
+font-size: 16px;
+}
+
+.container {
+width: 1500px;
+height: 200px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 40px;
+}
+
+.imgcenter{
+display: block;
+width: 20%;
+margin-top: 100px;
+margin-left: auto;
+margin-right: auto;
+padding: 20px;
+}
+
+.titleBoogle {
+color: #676261;
+font-size: 30px;
+font-weight: bold;
+text-align: center;
+margin-top: 0;
+}
+
+.search-form {
+    max-width: 250px;
+    padding: auto;
+    margin: 0 auto;
+}
+
+.button {
+  background-color: #3CB371;
+  border: 2px solid #2E8B57;
+  color: white;
+  padding: auto;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.default-language {
+text-align: center;
+font-size: 10px;
+padding-top: 50px;
+padding-left: auto;
+padding-right: auto,
+}

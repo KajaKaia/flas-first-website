@@ -1,0 +1,72 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+.header {
+height: 100vh;
+}
+
+#logo{
+    height: 48px;
+    padding: 2px 10px;
+    border: solid 2px #8E8888;
+    border-radius: 10px;
+    }
+
+.navbar {
+box-shadow: 0 5px 5px #E7E7E7;
+}
+
+.saloon_title{
+font-size: 40px;
+font-weight: 500;
+}
+
+.big-text{
+font-size: 52px;
+margin: 30px 0;
+color: darkorange;
+}
+
+a.btn{
+margin: 60px 10px;
+width: 150px;
+padding: 10px;
+border-radius: 20px;
+background-color: #efefef;
+}
+
+a.btn first {
+background-color: #efefef;
+color: blue;
+}
+
+a.btn second {
+background: transparent;
+border: 1px solid blue;
+color: black;
+}
+
+a.btn:hover {
+background: darkorange;
+border: none;
+color: #fff;
+box-shadow: 5px 5px 10px #999;
+transition: 0.3s;
+}
+
+.banner-info, .banner-image{
+margin-top: 100px;
+}
+
+#site_pic{
+height: 500px;
+width: 500px;
+margin-left: 40px;
+}
+
+.navbar {
+padding-top: 0.25rem;
+ padding-bottom: 0.25rem;
+  }

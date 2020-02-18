@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}First Webpage{% endblock title %}</title>
+
+        <link rel="stylesheet" href="/static/css/style.css">
+    </head>
+
+    <body>
+        <h1>First Web page with Flask</h1>
+        <p> Page content:</p>
+        <p>
+            <a href="/">Home</a>,
+            <a href="/about">About me</a>
+            <a href="/portfolio">Portfolio</a>
+        </p>
+
+        {% block content %}
+        {% endblock content %}
+
+    </body>
+</html>
